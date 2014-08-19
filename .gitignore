@@ -21,4 +21,4 @@
 *.app
 
 # Logs
-.log
+*.log
