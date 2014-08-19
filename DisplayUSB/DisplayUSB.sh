@@ -1,10 +1,10 @@
-rm log
+rm log.log
 echo
 while :
 do
   clear
-  date | tee -a log
-  lsusb | tee -a log
-  echo " " >> log
+  date | tee -a log.log
+  lsusb | tee -a log.log
+  echo " " >> log.log
   sleep 2
 done
